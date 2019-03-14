@@ -226,9 +226,9 @@ def draw_points_on_circle(window, circle, number_of_points, color):
     #
     # Your professor may do this exercise with you as "live coding".
     # -------------------------------------------------------------------------
-
-
-
+    new = generate_points_on_circle(circle, number_of_points)
+    for k in range(len([number_of_points])):
+        new = 
 
 
 
