@@ -72,10 +72,14 @@ def make_simple_list(m, n):
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     # -------------------------------------------------------------------------
-    for k in range(m, n):
+    total = 0
+    for k in range(seq[m]):
         if n >= m:
-            seq = seq + [k]
-        print(seq)
+            seq = len[m]
+            total = total + 1
+    print(seq)
+
+
 
 def run_test_make_simple_string():
     """ Tests the   make_simple_string    function. """
