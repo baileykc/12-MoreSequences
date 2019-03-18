@@ -412,8 +412,8 @@ def rectangles_from_circles(circles):
     for k in range(len(circles)):
         center = circles[k].center
         radius = (2 * circles[k].radius)
-        SQUARE = rg.Square(center, radius)
-        rectangles.append(SQUARE)
+        square = rg.Square(center, radius)
+        rectangles.append(square)
     return rectangles
 
 # -----------------------------------------------------------------------------
