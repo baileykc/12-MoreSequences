@@ -378,6 +378,7 @@ def run_test_polygon():
     circle = rg.Circle(rg.Point(350, 200), 150)
     circle.outline_thickness = 3
     polygon(window, circle, 6, 'red', 5)
+    window.close_on_mouse_click()
 
     # Test 3
     title = ('POLYGON tests 3: 3 segments with thick green lines')
